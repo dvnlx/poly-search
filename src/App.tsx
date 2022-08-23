@@ -28,7 +28,7 @@ const db = getFirestore(app);
 function App() {
   return (
     <>
-      <footer className="p-4 bg-white shadow md:flex md:items-center md:justify-between md:p-6 dark:bg-zinc-900">
+      <header className="p-4 bg-white shadow md:flex md:items-center md:justify-between md:p-6 dark:bg-zinc-900">
         <ul className="flex items-center mt-3 text-sm text-gray-500 dark:text-gray-400 sm:mt-0 ">
           <li>
             <a href="#" className="mr-4 hover:underline md:mr-6 ">
@@ -51,11 +51,11 @@ function App() {
             </a>
           </li>
         </ul>
-      </footer>
+      </header>
       <div className="flex items-center justify-center text-center h-screen p-4 bg-zinc-800 scrollbar-hide">
         <div>
           <div className="flex justify-center items-center mb-4 flex-col">
-            <img src="./favicon.png" alt="Logo" className=""/>
+            <img src="./favicon.png" alt="Logo" className="mb-4"/>
             <h1 className="font-bold text-3xl text-white transition hover:text-primary font-albertsans mr-0">
               Nova Search
             </h1>
